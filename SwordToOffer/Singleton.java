@@ -1,7 +1,7 @@
 package SwordToOffer;
 
 /**
- * 剑指 offer 1.java单例模式
+ * 剑指 offer 2.java单例模式
  * 
  * @author KureNaii
  * @since 2021-09-11 13:55:57
