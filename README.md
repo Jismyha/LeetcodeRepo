@@ -1,2 +1,4 @@
-# VSCLeetcodeRepo
-My Leetcode Answer Repo
+# LeetcodeRepo
+My Leetcode Answer Repo 
+Language : Java
+
