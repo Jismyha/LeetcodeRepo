@@ -19,7 +19,7 @@ public class Solution03 {
         return -1;
     }
 
-    // 解法 2 原地哈希 时间 o(n) 空间 o(n)
+    // 解法 2 原地哈希 时间 o(n)
     public int findRepeatNumber2(int[] nums) {
         int result = -1;
         int i = 0;

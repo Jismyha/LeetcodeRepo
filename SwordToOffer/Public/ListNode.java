@@ -1,4 +1,4 @@
-package SwordToOffer;
+package SwordToOffer.Public;
 
 /**
  * 公用链表节点类
@@ -7,8 +7,8 @@ package SwordToOffer;
  * @version 1.0
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     public ListNode(int val) {
         this.val = val;
