@@ -11,7 +11,7 @@ import SwordToOffer.Public.TreeNode;
  * @author KureNaii
  * @since 2021-12-13 11:29:22
  */
-public class Solution07 {
+class Solution {
 
     int[] preorder;
     Map<Integer, Integer> map = new HashMap<>();
