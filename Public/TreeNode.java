@@ -1,4 +1,4 @@
-package SwordToOffer.Public;
+package Public;
 
 /**
  * 公共树节点类

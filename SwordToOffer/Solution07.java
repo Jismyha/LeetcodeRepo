@@ -3,7 +3,7 @@ package SwordToOffer;
 import java.util.HashMap;
 import java.util.Map;
 
-import SwordToOffer.Public.TreeNode;
+import Public.TreeNode;
 
 /**
  * 剑指 offer 07.重建二叉树

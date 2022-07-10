@@ -1,4 +1,4 @@
-package SwordToOffer.Public;
+package Public;
 
 public class Singleton {
     private Singleton() {

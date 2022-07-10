@@ -1,7 +1,9 @@
 package SwordToOffer;
 
-import SwordToOffer.Public.ListNode;
 import java.util.List;
+
+import Public.ListNode;
+
 import java.util.ArrayList;
 
 /**

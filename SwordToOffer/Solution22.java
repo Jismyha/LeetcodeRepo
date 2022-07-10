@@ -1,6 +1,6 @@
 package SwordToOffer;
 
-import SwordToOffer.Public.ListNode;
+import Public.ListNode;
 
 /**
  * 剑指 offer 22.倒数第K个节点
