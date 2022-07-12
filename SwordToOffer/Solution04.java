@@ -6,7 +6,7 @@ package SwordToOffer;
  * @author KureNaii
  * @since 2021-09-21 02:41:52
  */
-class Solution {
+public class Solution04 {
     // 由于矩阵的特殊结构，从右上角或左下角开始搜索，能排除行列
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         // 判断特殊情况

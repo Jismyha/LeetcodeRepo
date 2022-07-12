@@ -6,7 +6,7 @@ package SwordToOffer;
  * @author KureNaii
  * @since 2021-09-21 03:09:14
  */
-class Solution {
+public class Solution05 {
     public String replaceSpace(String s) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {

@@ -6,7 +6,7 @@ package SwordToOffer;
  * @author KureNaii
  * @since 2021-09-11 14:45:03
  */
-class Solution {
+public class Solution03 {
     // 解法 1 哈希表 时间 o(n) 空间 o(n)
     public int findRepeatNumber(int[] nums) {
         // 自动初始化为0
@@ -40,10 +40,4 @@ class Solution {
         return result;
     }
 
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] nums = { 2, 3, 1, 0, 2, 5, 3 };
-        int result = solution.findRepeatNumber2(nums);
-        System.out.println(result);
-    }
 }

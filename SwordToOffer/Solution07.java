@@ -11,7 +11,7 @@ import Public.TreeNode;
  * @author KureNaii
  * @since 2021-12-13 11:29:22
  */
-class Solution {
+public class Solution07 {
 
     int[] preorder;
     Map<Integer, Integer> map = new HashMap<>();

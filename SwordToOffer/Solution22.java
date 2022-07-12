@@ -8,7 +8,7 @@ import Public.ListNode;
  * @author KureNaii
  * @since 2022-03-24 23:30:44
  */
-class Solution {
+public class Solution22 {
     public ListNode getKthFromEnd(ListNode head, int n) {
         ListNode left = head, right = head;
         // 让左右指针相差n个位置

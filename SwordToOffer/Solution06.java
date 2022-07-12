@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author KureNaii
  * @since 2021-09-21 12:38:21
  */
-class Solution {
+public class Solution06 {
     List<Integer> list = new ArrayList<>();
 
     public int[] reversePrint(ListNode head) {
