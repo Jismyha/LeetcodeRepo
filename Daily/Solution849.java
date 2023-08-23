@@ -10,7 +10,13 @@ import java.util.Arrays;
  * @since 2023-08-22 23:14:58
  */
 class Solution849 {
-    public static int maxDistToClosest(int[] seats) {
+    /**
+     * 穷举
+     * 
+     * @param seats
+     * @return
+     */
+    public int maxDistToClosest(int[] seats) {
         int len = seats.length;
         int[] tmpArry = new int[len];
         // 遍历seats数组
@@ -47,8 +53,29 @@ class Solution849 {
         return tmpArry[len - 1];
     }
 
-    public static void main(String[] args) {
-        int[] test = { 1, 0, 0, 0, 1, 0, 1 };
-        maxDistToClosest(test);
+    /**
+     * 双指针
+     * 
+     * @param seats
+     * @return
+     */
+    public int maxDistToClosest2(int[] seats) {
+        int left = 0;
+        int right = 0;
+        int result = 0;
+        while (right <= seats.length - 1) {
+            // 右指针为1或右指针结束都需要计算值
+            if (seats[right] == 1 || right == seats.length - 1) {
+                // 左边界与右边界
+                if ((left == 0 && seats[left] != 1) || (right == seats.length - 1 && seats[right] != 1)) {
+                    result = Math.max(right - left, result);
+                } else {
+                    result = Math.max((right - left) / 2, result);
+                }
+                left = right;
+            }
+            right++;
+        }
+        return result;
     }
 }
