@@ -1,5 +1,7 @@
 package SwordToOffer;
 
+import java.util.Arrays;
+
 /**
  * 剑指 offer 3.数组中重复数字
  * 
@@ -24,7 +26,7 @@ public class Solution03 {
         int result = -1;
         int i = 0;
         while (i < nums.length) {
-            // 当下标与指相同，移动指针
+            // 当下标与值相同，移动指针
             if (nums[i] == i) {
                 i++;
                 continue;
@@ -38,6 +40,17 @@ public class Solution03 {
             nums[temp] = temp;
         }
         return result;
+    }
+
+    // 解法 3 排序 时间 o(nlogn)
+    public int findRepeatNumber3(int[] nums) {
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == nums[i + 1]) {
+                return nums[i];
+            }
+        }
+        return -1;
     }
 
 }
